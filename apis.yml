@@ -1,8 +1,29 @@
 aid: blue-water-autonomy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blue-water-autonomy.png
 name: Blue Water Autonomy
-description: 'Blue Water Autonomy is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Blue Water Autonomy is a Boston-based defense technology company building
+  autonomous warships for open-ocean operations, with the goal of revitalizing
+  U.S. shipbuilding through scalable, reliable, uncrewed naval vessels. Founded
+  in 2025 by Rylan Hamilton (ex-U.S. Navy officer and founder of 6 River Systems),
+  Scott N. Miller (ocean engineer and early iRobot engineer), and Austin Gray
+  (former Navy intelligence officer), the company unveiled its 190-foot Liberty
+  Class autonomous ship platform for the U.S. Navy in February 2026. Backed by a
+  $50M Series A led by GV, Blue Water Autonomy operates from offices in Boston MA,
+  Washington DC, Morgan City LA, and San Diego CA. This is a company profile in
+  the API Evangelist network; the company publishes no public API, developer
+  portal, or SDK surface as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/blue-water-autonomy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Frontier Tech
+- Defense
+- Autonomous Systems
+- Maritime
+- Robotics
+- Shipbuilding
+- National Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.blw.ai
+- type: Blog
+  url: https://www.blw.ai/logbook
+- type: Support
+  url: https://www.blw.ai/contact
+- type: TermsOfService
+  url: https://www.blw.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.blw.ai/privacy-policy
+- type: Press
+  url: https://www.blw.ai/press
+- type: LinkedIn
+  url: https://www.linkedin.com/company/blue-water-autonomy/
+- type: Twitter
+  url: https://x.com/BlueWaterShips
+- type: YouTube
+  url: https://www.youtube.com/@bluewaterautonomyofficial
+- type: DomainSecurity
+  url: security/blue-water-autonomy-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
